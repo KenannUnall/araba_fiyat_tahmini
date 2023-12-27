@@ -19,14 +19,14 @@ Veri seti 556576 adet veri ve 9 kolon(öznitelik)’ den oluşmaktadır. Öznite
 <p>
  
 ilan_id = Araç ilanının id değerini belirtmektedir.<br>
-ilan_basligi = Aracın ilan başlığıdır.
-fiyat = Tahmin edilecek değerdir. Bağımlı değişken olarak da adlandırılabilir.
-fiyat_kuru = Fiyatın hangi para birimine denk olduğunu belirtmektedir.
-ilan_tarihi = Aracın ilana koyulduğu tarihini (Yıl-Ay-Gün Saat) belirtmektedir.
-ilan_kategorisi = Aracın türünü, markasını, modelini, silindir hacmini vb. özellikleri içerir.
-arac_taglari = Aracın modelini, markasını, ve seri özelliklerini içerir.
-ilan_konumu = Aracın bulunduğu, ilanın verildiği il/ilçe değerini içerir.
-arac_ozellikleri = Aracın km değerini, hangi yıla ait model olduğunu vb. özelliklerini içerir.
+ilan_basligi = Aracın ilan başlığıdır.<br>
+fiyat = Tahmin edilecek değerdir. Bağımlı değişken olarak da adlandırılabilir.<br>
+fiyat_kuru = Fiyatın hangi para birimine denk olduğunu belirtmektedir.<br>
+ilan_tarihi = Aracın ilana koyulduğu tarihini (Yıl-Ay-Gün Saat) belirtmektedir.<br>
+ilan_kategorisi = Aracın türünü, markasını, modelini, silindir hacmini vb. özellikleri içerir.<br>
+arac_taglari = Aracın modelini, markasını, ve seri özelliklerini içerir.<br>
+ilan_konumu = Aracın bulunduğu, ilanın verildiği il/ilçe değerini içerir.<br>
+arac_ozellikleri = Aracın km değerini, hangi yıla ait model olduğunu vb. özelliklerini içerir.<br>
 Bu kısımda df.info() ile boş değer var mı, kolonların veri tipleri vb. özellikleri inceliyoruz. Ardından df.nunique() ile her bir kolon için kaç adet farklı değer olduğunu elde ediyoruz. Bu işlem örneğin fiyat_kuru kolonunun her veri de aynı olmasından dolayı öznitelik olarak önemli bir anlam taşımadığını yani herhangi bir veriye veya veri grubuna özgü olmadığından modelin öğrenme aşamasında önemli bir rol oynamayacaktır. Bu yüzden dolayı ilerleyen aşamalarda bu kolon kaldırılacaktır. df.isnull().sum() ile hiçbir sütunda boş veri olmadığı görülmektedir. Tabi ilerleyen aşamalarda json formattaki verilerin ayırılma işleminden sonra boş değer oluşabilme olasılığından dolayı bu aşama tekrarlanacaktır. 
  
 </p>
