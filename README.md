@@ -1,11 +1,15 @@
-VERİSETİ YÜKLEME VE VERİ ÖN İŞLEME 
+<h1>VERİSETİ YÜKLEME VE VERİ ÖN İŞLEME</h1>
+<p>
 Projemize ilk olarak, her aşamada kullanabileceğimiz, tüm veri ön işleme, makine öğrenmesi vb. alanlarda oldukça popüler olarak kullanılan kütüphanelerimizi dahil ederek başlıyoruz. Bu kütüphaneleri kısaca açıklamak gerekirse;
-NumPy = Python için bir bilimsel hesaplama kütüphanesidir. Çok boyutlu dizilerin hızlı işlenmesini sağlar ve matematiksel operasyonlar için kullanılır.
-Pandas= Python için geliştirilmiş bir veri analizi ve manipülasyon kütüphanesidir. Veri tablolarını ve zaman serilerini işlemek için kullanılır. Pandas, veri okuma, filtreleme, sıralama, birleştirme, gruplama gibi işlemleri kolayca gerçekleştirebilir ve veri analizi için gerekli olan birçok fonksiyonu içerir.
-Matplotlib= Veri görselleştirme kütüphanesidir. Verileri grafikler, çizimler ve görsel sunumlar aracılığıyla görselleştirmek için kullanılır. Matplotlib, çizgi grafikleri, sütun grafikleri, dağılım grafikleri, histogramlar, pasta grafikleri ve daha birçok grafik türünü içinde barındırır.
-Seaborn= Seaborn’ de Matplotlib gibi veri görselleştirme kütüphanesidir. Matplotlib’e göre daha spesifiktir. Seaborn, Matplotlib kütüphanesine göre daha yüksek seviyeli bir arayüz sunarak istatistiksel veri görselleştirmelerini kolaylaştırır.
+<ul>
+ <li>NumPy = Python için bir bilimsel hesaplama kütüphanesidir. Çok boyutlu dizilerin hızlı işlenmesini sağlar ve matematiksel operasyonlar için kullanılır.</li>
+<li>Pandas= Python için geliştirilmiş bir veri analizi ve manipülasyon kütüphanesidir. Veri tablolarını ve zaman serilerini işlemek için kullanılır. Pandas, veri okuma, filtreleme, sıralama, birleştirme, gruplama gibi işlemleri kolayca gerçekleştirebilir ve veri analizi için gerekli olan birçok fonksiyonu içerir.</li>
+<li>Matplotlib= Veri görselleştirme kütüphanesidir. Verileri grafikler, çizimler ve görsel sunumlar aracılığıyla görselleştirmek için kullanılır. Matplotlib, çizgi grafikleri, sütun grafikleri, dağılım grafikleri, histogramlar, pasta grafikleri ve daha birçok grafik türünü içinde barındırır.</li>
+<li>Seaborn= Seaborn’ de Matplotlib gibi veri görselleştirme kütüphanesidir. Matplotlib’e göre daha spesifiktir. Seaborn, Matplotlib kütüphanesine göre daha yüksek seviyeli bir arayüz sunarak istatistiksel veri görselleştirmelerini kolaylaştırır.</li>
+</ul>
 Aşağı kısımda csv formatındaki veri setimizi df değişkenine atıyoruz. Daha sonra ilk 5 değeri inceliyoruz.
 
+</p>
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/c7ecb8e0-2ef2-4c4a-91b0-b31d59f17e98) 
 
  
