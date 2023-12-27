@@ -18,7 +18,7 @@ Veri seti 556576 adet veri ve 9 kolon(öznitelik)’ den oluşmaktadır. Öznite
 
 <p>
  
-ilan_id = Araç ilanının id değerini belirtmektedir.
+ilan_id = Araç ilanının id değerini belirtmektedir.<br>
 ilan_basligi = Aracın ilan başlığıdır.
 fiyat = Tahmin edilecek değerdir. Bağımlı değişken olarak da adlandırılabilir.
 fiyat_kuru = Fiyatın hangi para birimine denk olduğunu belirtmektedir.
