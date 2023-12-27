@@ -10,7 +10,9 @@ Projemize ilk olarak, her aşamada kullanabileceğimiz, tüm veri ön işleme, m
 Aşağı kısımda csv formatındaki veri setimizi df değişkenine atıyoruz. Daha sonra ilk 5 değeri inceliyoruz.
 
 </p>
-![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/c7ecb8e0-2ef2-4c4a-91b0-b31d59f17e98) 
+
+![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/c7ecb8e0-2ef2-4c4a-91b0-b31d59f17e98)
+
 
  
 
