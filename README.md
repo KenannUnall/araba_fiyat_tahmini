@@ -231,8 +231,7 @@ Gradient boosting regresyonu, zayıf tahmin modellerini bir araya getirerek daha
 Öneri sisteminin yapılması için tkinter kütüphanesi kullanılmıştır. data isimli veri setinin tüm kolonları kullanıcıdan alınmamaktadır. Bazı değerler kullanıcıdan alınan değerlere göre arka plan da hesaplanmaktadır. Burada araba modelleri, yakit türleri vb. değerler radio_button ile alınırken km, yil_model gibi değerler textbox’a girilen değeri almaktadır.
  
  
- ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/8f2f2aea-09fd-4c1d-acda-ee729b3b7609)  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/dedd7b9c-ea7c-42cd-8db0-23aba3acca51)
-
+ ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/8f2f2aea-09fd-4c1d-acda-ee729b3b7609)             ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/26bcb294-9317-43bb-b7a3-dea7732bd3f7)
 
  
 
