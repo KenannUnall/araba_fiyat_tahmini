@@ -73,7 +73,7 @@ Aşağı kısımda veri setinin kolon özellikleri ve boş değerleri incelenmi�
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/42d83c89-ebe6-487b-9b4d-0c2bed04ff2b) 
 
  
-VERİ SETİNİN GÖRSELLEŞTİRİLMESİ
+<h1>VERİ SETİNİN GÖRSELLEŞTİRİLMESİ</h1>
  
  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/dfa97117-fcde-4387-9aca-45962ed58317)
 
@@ -120,7 +120,7 @@ Burada yıl olarak tahminin yapılacağı yıl alınmaktadır. datatime adlı k�
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/66639ca8-9f44-4cbd-ad88-af33a84cf8c5)
 
 
-ONE-HOT ENCODİNG İŞLEMİ
+<h1>ONE-HOT ENCODİNG İŞLEMİ</h1>
 İlk olarak veri setimizi bağımsız değişken(X), bağımlı değişken(Y) şeklinde ayırıyoruz ve ardından bağımısız değişkenlere one-hot encoding işlemi uyguluyoruz ve kategorik değişkenleri sayısal hale getiriyoruz. Bu aşamada one-hot encoding uygulama nedenimiz belirtilen kolondaki kategorik değerlerin birbirleri üzerinde bir büyüklük(sıralama) olmaması. İşlem sonucunda bağımsız değişkenlerimiz 27 kolona çıkmıştır.
  
 
@@ -131,7 +131,7 @@ ONE-HOT ENCODİNG İŞLEMİ
 
 
 
-KORELASYON MATRİSİ
+<h1>KORELASYON MATRİSİ</h1>
  
 Elde ettiğimiz özniteliklerin korelasyon değerlerine baktığımızda aslında marka değerlerine, araç yaşına ihtiyacımız olmadığını görmekteyiz. Çünkü korelasyonu yüksek olduğu kolonlar bulunmaktadır.
 
@@ -152,7 +152,7 @@ Ardından bağımsız değişkenlerden de bu öznitelikler kaldırılmıştır v
  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/209b9494-22b6-4924-b7d6-60f3722dc80b)
 
 
-SCALE İŞLEMİ
+<h1>SCALE İŞLEMİ</h1>
 Bu kısımda, X ve Y değeri numpy dizisine çevrilmiş ve ardından scale işlemi gerçekleştirilmiştir. 
 Scale İşlemi (Ölçeklendirme): Scale işlemi, veri noktalarını belirli bir aralığa dönüştürmek için kullanılan bir veri ön işleme tekniğidir. Genellikle veri setinin farklı özelliklerinin farklı ölçeklerde olması durumunda kullanılır. Örneğin, bir özellik 0-1 aralığında diğer özellik ise 100-1000 aralığında olabilir. Bu durumda scale işlemi kullanılarak her iki özelliği aynı ölçekte temsil etmek mümkündür.
 Min-Max Scale Yöntemi: Min-Max scale yöntemi, scale işlemi için yaygın olarak kullanılan bir yöntemdir. Bu yöntemde, veri noktaları belirli bir aralığa dönüştürülür. Genellikle 0-1 aralığı tercih edilir.
@@ -160,7 +160,7 @@ Min-Max Scale Yöntemi: Min-Max scale yöntemi, scale işlemi için yaygın olar
  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/679a1162-933e-483d-b36d-fda6c6ae1325)
 
 
-TRAIN – TEST SPLIT
+<h1>TRAIN – TEST SPLIT</h1>
 Bu kısımda test_size, veri setindeki veri sayısının yüksek olmasından dolayı 0.1 olarak belirlenmiştir.
 Train set shape - X_train: (500013, 20)  Y_train: (500013, 1) 
 Test set shape - X_test: (55557, 20)  Y_test: (55557, 1)
@@ -170,7 +170,7 @@ Test set shape - X_test: (55557, 20)  Y_test: (55557, 1)
 
 
 
-MAKİNE ÖĞRENMESİ ALGORİTMALARI VE ELDE EDİLEN SONUÇLAR
+<h1>MAKİNE ÖĞRENMESİ ALGORİTMALARI VE ELDE EDİLEN SONUÇLAR</h1>
 İlk aşamada kullanılacak olan algoritmaları ve metrikleri projemize dahil ediyoruz. Toplam olarak 6 adet algoritma kullanılmış ve sonuçlar elde edilmiştir.
   
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/4efd37db-cfd8-486a-9dd0-c6be0f311edd)
@@ -202,6 +202,7 @@ Random forest regresyonu, özellikle regresyon problemleri için etkili bir yön
  
  
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/cfa588e5-5ca3-4302-85bc-41142a9ded50)
+
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/328d8aaa-bcf9-434c-a22d-1a9897d34b6f)
 
 
@@ -212,6 +213,7 @@ KNN regresyonunda, veri setindeki örnekler arasındaki benzerlik ölçüsü kul
 KNN regresyonunda, K değeri modelin karmaşıklığını belirler. Küçük K değerleri modeli daha esnek hale getirirken, büyük K değerleri modeli daha az esnek hale getirir. K değeri seçimi, genellikle deneme yanılma yoluyla veya çapraz doğrulama teknikleriyle yapılır.
  
  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/9ca1a5a0-0dfb-494a-8d99-bafa9ac222c1)
+ 
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/605c6e56-3ef6-428a-9142-9305f769f8d3)
 
 
@@ -219,6 +221,7 @@ Gradient Boosting Regresyon
 Gradient boosting regresyonu, zayıf tahmin modellerini bir araya getirerek daha güçlü bir tahmin modeli oluşturan bir regresyon yöntemidir. Bu yöntemde, başlangıçta basit bir tahmin modeli oluşturulur, genellikle bir karar ağacıdır. Ardından, her bir sonraki tahmin modeli, önceki modelin hatalarını düzeltmek için eğitilir. Bu düzeltmeler, gradyan (gradient) adı verilen bir değerle belirlenir. Gradyan, gerçek değerlerle tahmin değerleri arasındaki farkı ifade eder.
  
  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/ff7779b1-237c-4a1a-9779-841d28a8d5cf)
+ 
 ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/919e3482-53fb-455a-b16b-2fdb6d79d455)
 
 
@@ -228,7 +231,7 @@ Gradient boosting regresyonu, zayıf tahmin modellerini bir araya getirerek daha
 Öneri sisteminin yapılması için tkinter kütüphanesi kullanılmıştır. data isimli veri setinin tüm kolonları kullanıcıdan alınmamaktadır. Bazı değerler kullanıcıdan alınan değerlere göre arka plan da hesaplanmaktadır. Burada araba modelleri, yakit türleri vb. değerler radio_button ile alınırken km, yil_model gibi değerler textbox’a girilen değeri almaktadır.
  
  
- ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/8f2f2aea-09fd-4c1d-acda-ee729b3b7609) ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/dedd7b9c-ea7c-42cd-8db0-23aba3acca51)
+ ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/8f2f2aea-09fd-4c1d-acda-ee729b3b7609)  ![image](https://github.com/KenannUnall/araba_fiyat_tahmini/assets/83499398/dedd7b9c-ea7c-42cd-8db0-23aba3acca51)
 
 
  
